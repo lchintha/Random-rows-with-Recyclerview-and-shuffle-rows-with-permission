@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        android:orientation="vertical"
+        tools:context="com.example.chint.week2_project.MainActivity"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/degea"
+            android:id="@+id/image"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:id="@+id/description"/>
+
+    </LinearLayout>
+
